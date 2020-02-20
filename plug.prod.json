@@ -1,0 +1,17 @@
+{
+  "server": {
+    "name": "servicews",
+    "port": "4001",
+    "host": "localhost",
+    "basePath": "/service"
+  },
+  "registry": {
+    "on": "REGISTRY_SERVICES",
+    "off": "UNREGISTRY_SERVICES",
+    "register": true,
+    "queue": {
+      "port": 5672,
+      "host": "localhost"
+    }
+  }
+}
